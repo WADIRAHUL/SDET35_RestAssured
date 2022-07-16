@@ -21,6 +21,7 @@ public class CreateProjectTest {
 		jobj.put("status", "Created");
 		jobj.put("teamSize", 15);
 		
+		
 		//Step-2:Send the request
 		given().body(jobj).contentType(ContentType.JSON)
 		.when().post("/addProject")

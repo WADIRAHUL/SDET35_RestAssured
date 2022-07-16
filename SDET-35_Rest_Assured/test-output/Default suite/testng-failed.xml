@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ResponseValidation.StaticResponse">
+      <class name="Authentication.BearerToken">
         <methods>
-          <include name="staticResponse"/>
+          <include name="bearerTokenTest"/>
         </methods>
-      </class> <!-- ResponseValidation.StaticResponse -->
+      </class> <!-- Authentication.BearerToken -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
